@@ -1,3 +1,4 @@
+import profile from '../../assets/images/profile.png'
 const Header = () => {
   return (
     <div>
@@ -8,7 +9,7 @@ const Header = () => {
         <div className="flex-none gap-2">
           <label className="avatar">
             <div className="w-14 h-14 rounded-full">
-              <img src="../../../public/girl2.jpg" />
+              <img src={profile} />
             </div>
           </label>
         </div>
